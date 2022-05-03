@@ -1,0 +1,32 @@
+.wrap-sh{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.wrap-sh .div-super-hero{
+    background-color: #fff;
+    padding: 50px;
+}
+.wrap-sh .div-super-hero .links{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #ccc;
+}
+.wrap-sh .div-super-hero .links .caja-link{
+    width: 100%;
+    padding: 0px 20px;
+}
+.wrap-sh .div-super-hero .links .caja-link:last-child{
+    border-top: 2px solid #ccc;
+}
+.wrap-sh .div-super-hero .info{
+    margin-top: 40px;
+}
+.wrap-sh .div-super-hero .info p{
+    font-size: 16px;
+}
+.wrap-sh .div-super-hero .info img{
+    width: 250px;
+    box-shadow: 0px 0px 10px #000;
+}

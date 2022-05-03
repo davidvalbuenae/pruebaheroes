@@ -1,0 +1,72 @@
+.div-cards-sh{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    min-width: 1200px;
+    font-size: 16px;
+}
+.div-cards-sh .card-sh{
+    width: 30%;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0px 0px 6px #ccc;
+    margin: 15px;
+    transition: 1s all ease;
+}
+.div-cards-sh .card-sh:hover{
+    width: 30%;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #000;
+    margin: 15px;
+}
+.div-cards-sh .card-sh .img{
+    width: 100%;
+    object-fit: cover;
+    height: 230px;
+}
+.div-cards-sh .card-sh .info-card-sh{
+    padding: 15px;
+}
+.div-cards-sh .card-sh .info-card-sh .name{
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px;
+}
+.div-cards-sh .card-sh .info-card-sh .title{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 10px 0px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+.div-cards-sh .card-sh .info-card-sh .biography p{
+    margin: 0.5px 0px;
+}
+@media screen and (max-width: 1350px){
+    .div-cards-sh{
+        max-width: 100%;
+        min-width: 100%;
+    }
+}
+@media screen and (max-width: 768px){
+    .div-cards-sh{
+        max-width: 100%;
+    }
+    .div-cards-sh .card-sh{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 665px){
+    .div-cards-sh{
+        max-width: 100%;
+    }
+    .div-cards-sh .card-sh{
+        width: 100%;
+        margin: 15px 0px;
+    }
+}
