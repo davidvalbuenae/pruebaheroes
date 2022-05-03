@@ -3,7 +3,7 @@ function viewHero($heroe)
 {
     ob_start();
     $accesstoken = esc_attr( get_option('sh_id_json') );
-    $idshero = shortcode_atts( array ('ids' => ''), $heroe );
+    $idshero = shortcode_atts( array ('ids' => '644'), $heroe );
     $ids = $idshero["ids"];
     $idheroarray = explode(",", $ids);
     // Div parent
